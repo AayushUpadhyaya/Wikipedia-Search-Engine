@@ -10,5 +10,6 @@ This is the repository for the Search engine designed to run on Wikipedia xml da
     * ***Term score for document*** : The score of the search term for a document is computed as **W*IDF***.
     * ***Document overall score*** : This is computed as sum of all search term scores that occur in that document.Finally, document with top K scores are returned as result along with document Id and document titles.
   * ***Field search***: We have enabled search also on the fields of the wikipedia articles.These include: ***Title,Body,Infobox,Category,References,External links***, with their field types as t,b,i,c,r,e respectively. To give a field search, just provide fieldtype:query to search. Example, if we want to search for "World cup" in title of the document and "Cricket" in the body of the document, your query would be: "t:World cup b:Cricket".
+  * ***Fast search***: The system is capable of producing results in under 5 seconds of receiving the query.
   
 ![Sample image](/images/s1.png)
